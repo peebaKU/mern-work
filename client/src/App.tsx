@@ -7,7 +7,7 @@ function App() {
     <>
       <div>
         <h1>Baramee</h1>
-        <button className="btn btn-primary">click</button>
+        <button className="btn btn-primary" onClick={()=>{alert(5555)}}>click</button>
       </div>
     </>
   )
