@@ -1,11 +1,8 @@
 import  express  from "express";
-
+import { creates } from "../controllers/blogController";
 export const blogRouter = express.Router()
 
-blogRouter.get('/blog',(req,res)=>{
-    res.json({
-        data:"Hello Route Blog"
-    })
-})
+
+blogRouter.get('/blog',creates)
 
 
